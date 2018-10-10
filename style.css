@@ -76,6 +76,10 @@ img{
 	
 	text-align: left;
 }
+.lastbox{
+	display: flex;
+	float: left;
+}
 // Setup
 * {
 	box-sizing: border-box;
