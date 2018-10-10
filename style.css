@@ -53,15 +53,29 @@ img{
 		border-top: 1px solid #ccc;
 	}
 }
-.boom {
-  float: right;
-}
 
 .box{
 	border: 5px solid red;
 	justify-content: center;
 }
 
+.left{
+	display: flex;
+	float: left;
+	
+	grid-area: sidebar;
+	text-align:left;
+	
+}
+
+.right{
+	display: flex;
+	float: right;
+	
+	grid-area: content;
+	
+	text-align: left;
+}
 // Setup
 * {
 	box-sizing: border-box;
