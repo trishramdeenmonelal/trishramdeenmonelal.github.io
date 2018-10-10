@@ -55,6 +55,9 @@ img{
   float: right;
 }
 
+.box{
+	box-sizing: content box;
+}
 
 // Setup
 * {
@@ -63,7 +66,7 @@ img{
 
 html {
 	font-size: 18px;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif,;
 }
 
 body {
