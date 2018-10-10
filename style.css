@@ -19,6 +19,7 @@
 }
 
 .header {
+	display: flex;
 	grid-area: header;
 	padding: 1rem;
 	background-color: blue;
@@ -58,6 +59,7 @@ img{
 
 .box{
 	border: 5px solid red;
+	justify-content: center;
 }
 
 // Setup
