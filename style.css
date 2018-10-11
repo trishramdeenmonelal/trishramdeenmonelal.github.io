@@ -23,7 +23,7 @@
 	grid-area: header;
 	padding: 1rem;
 	align-content: center;
-	
+	background-color: #0068D5;
 	justify-content: center;
 	border-bottom: 1px solid #ccc;
 	@media (max-width: 36rem) {
@@ -31,9 +31,11 @@
 	}
 }
 img{
-	width: 50%;
-	border-radius: 60%;
-	margin-left: 70px;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	margin-left: 66px;
+	
 }
 .main {
 	grid-area: main;
@@ -93,7 +95,7 @@ img{
 
 .ptxt{
 	
-	font-size:15px;
+	font-size:17px;
 	 
 }
 
